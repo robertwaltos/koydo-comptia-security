@@ -1,0 +1,45 @@
+// CompTIA Security+ Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM154",
+  slug: "comptia-security",
+  name: "CompTIA Security+",
+  fullName: "Security+",
+  alias: "Security+",
+  family: "CompTIA",
+  category: "Professional certification",
+  subcategory: "Cybersecurity",
+  country: "Global",
+  region: "Global",
+  languages: ["English + localizations"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "18-40",
+  targetUser: "IT professional",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ + PBQ"],
+  adaptivity: "Mixed",
+  sections: "Up to 90 questions",
+  scoringMode: "Scaled/pass",
+  essayOrSpeaking: "No",
+  ipRisk: "Medium",
+  contentReuse: "cybersecurity",
+  uiEngine: "objective_plus_performance",
+  monetizationPotential: "High",
+  tier: "Tier 5",
+  launchWave: "Wave 7",
+  themeColor: "#7C3AED",
+  themeColorDark: "#6D28D9",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
